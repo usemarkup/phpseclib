@@ -178,7 +178,7 @@ class Crypt_RC4 extends Crypt_Base
      */
     function Crypt_RC4()
     {
-        parent::Crypt_Base(CRYPT_MODE_STREAM);
+        parent::__construct(CRYPT_MODE_STREAM);
     }
 
     /**
